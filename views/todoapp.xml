@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="view_owl_todo_app_template">
+        &lt;!DOCTYPE html&gt;
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8"/>
+                <title>Welcome From OWL JS</title>
+                <link rel="icon" type="image/x-icon" href="/owl_todo_app/static/description/icon.png"/>
+                <link href="/owl_todo_app/static/src/css/app.css" rel="stylesheet"/>
+                <script src="https://github.com/odoo/owl/releases/download/v2.0.0-beta-16/owl.iife.js"
+                        type="text/javascript"/>
+            </head>
+            <body>
+                <script src="/owl_todo_app/static/src/js/app.js" type="text/javascript"/>
+            </body>
+        </html>
+    </template>
+</odoo>
